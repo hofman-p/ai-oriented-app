@@ -1,50 +1,18 @@
-# Welcome to your Expo app 👋
+# Introduction
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The main functionality of the app is to allow users to enter a prompt and receive a simulated AI response.
+It's just the result of a quick test of React Native, for the purpose of learning (and fun !)
+The UI is quickly styled to resemble ChatGPT, with a clean and modern look.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Prompt Input**: Users can type their prompt into a centered text input field.
+- **Send Button**: A button to send the prompt, which shows a loading state while waiting for the response.
+- **Response Display**: The AI response is displayed in a centered scrollable container.
 
-   ```bash
-   npm install
-   ```
+## Installation
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Run `npm install` to install the dependencies.
+2. Run `npx expo start` to start the app.
+3. Use the Expo Go app to scan the QR code and open the app on your device.
+4. Enjoy!
