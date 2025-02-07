@@ -1,8 +1,9 @@
 # Introduction
 
 The main functionality of the app is to allow users to enter a prompt and receive a simulated AI response.
-It's just the result of a quick test of React Native, for the purpose of learning (and fun !)
+It's just the result of a quick test of React Native back then, for the purpose of learning (and fun !)
 The UI is quickly styled to resemble ChatGPT, with a clean and modern look.
+I updated it recently and cleaned it a bit with some reset etc so normally everything is up to date (it was on my PC since a while), I thought it'd be nice to share.
 
 ## Features
 
